@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="centrar">Monitoreo del Sistema</h1>
+    </div>
+    <center>
+        <h2 id="porcentaje">0%</h2>
+    </center>
+    <div class="centrar">
+        <div class="tanque">
+            <h1 class="centrar"></h1>
+            <div class="agua" id="nivelagua">
+
+            </div>
+        </div>
+    </div>
+    <div class="centrar">
+        <div id="flujo" class="tipoboton">
+            <div class="centrar">
+                <img class="img" src="img/caudal.png" alt="">
+            </div>
+        </div>
+        <div class="tipoboton">
+            <img src="img/estado.png" alt="">
+        </div>
+        <div id="cantidadagua" class="tipoboton">
+            <div class="centrar">
+                <p id="mm"></p>
+            </div>
+        </div>
+    </div>
+    <div class="centrar">
+        <input type="text" id="valor">
+        <button onclick="Llenartanque()">Probar</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
